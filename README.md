@@ -13,7 +13,7 @@ The experimental model codes are provided in: `./model`
 The overall process of the proposed spatial-temporal dataset and prediction task.
 
 new spatial-temporal task and dataset.
-<img src="./Figure/fig_rmt_overview.png" alt="overview" width=80%/>
+<img src="./Figure/fig_rmt_overview.png" alt="overview" width=50%/>
 
 ## RMT (Road Mobile Traffic) Dataset
 
@@ -35,7 +35,7 @@ Road Sections in Hsinchu City, Taiwan.
 
 These road sections are geographically connected to constitute a network, generating more spatial correlations. 
 
-<img src="./Figure/rmt_road_sections.png" alt="Sections" width=50%/>
+<img src="./Figure/rmt_road_sections.png" alt="Sections" width=70%/>
 
 ### Temporal Property
 
@@ -43,7 +43,7 @@ Examples of RMT time series.
 
 Each RMT time series has its temporal pattern based on the surrounding environment.
 
-<img src="./Figure/rmt_time_distribution.png" alt="RMT" width=50%/>
+<img src="./Figure/rmt_time_distribution.png" alt="RMT" width=70%/>
 
 ## Experimental Materials Providing 
 
