@@ -15,6 +15,13 @@ The overall process of the proposed spatial-temporal dataset and prediction task
 new spatial-temporal task and dataset.
 <img src="./Figure/fig_rmt_overview.png" alt="overview" width=50%/>
 
+## Training/Test/Validation Data
+
+The Training/Test/Validation (.npz) is providing at ./Data
+
+We split 7:2:1 as  Training/Test/Validation files. 
+
+
 ## RMT (Road Mobile Traffic) Dataset
 
 We proposed a new spatial-temporal dataset, the RMT Dataset, consisting of RMT time series among multiple road sections. 
@@ -59,7 +66,7 @@ The `processed Graph Structure` used in experiments are available at: [Google Dr
 
 ### (2). RMT dataset for training
 
-The original RMT series data are available at: [RMT_2022_nodes_11](https://drive.google.com/file/d/19Oh5zRBih6wchi5mTwJW1OAsX0nw7Ppf/view?usp=sharing). 
+The original RMT series data are available at: [RMT_2022_nodes_11](https://drive.google.com/file/d/19Oh5zRBih6wchi5mTwJW1OAsX0nw7Ppf/view?usp=share_link). 
 Here are the partital examples of RMT series:
 
 |                     | Road Section 1 | Road Section 2 | Road Section 3 | ... | Road Section 11 |
@@ -73,7 +80,7 @@ Here are the partital examples of RMT series:
 | 2022-03-31 23:55:00 |   54.0        |   9.0        |   51.0        |    ...         |    38.0         |
 
 
-To generate train/test/val dataset as  {train,val,test}.npz for the experiments, please follow the reference [script](https://github.com/liyaguang/DCRNN/blob/master/scripts/generate_training_data.py) with our providing dataset: [RMT_2022_nodes_11](https://drive.google.com/file/d/19Oh5zRBih6wchi5mTwJW1OAsX0nw7Ppf/view?usp=sharing)
+To generate train/test/val dataset as  {train,val,test}.npz for the experiments, please follow the reference [script](https://github.com/liyaguang/DCRNN/blob/master/scripts/generate_training_data.py) with our providing dataset: [RMT_2022_nodes_11](https://drive.google.com/file/d/19Oh5zRBih6wchi5mTwJW1OAsX0nw7Ppf/view?usp=share_link)
 
 The `processed train/val/test data structures` are available at: [Google Drive](https://drive.google.com/drive/folders/13ERd3wZFOe41RJ8CXyg_Q9U5XaS_HYrz?usp=share_link)
 
@@ -83,7 +90,7 @@ We adopted our proposed Feature Augmentation to convert the univariate feature (
 
 We employed 'Moving Average (MA)' and 'Geometric Average (GA)' as the linear and nonlinear components respectively.
 
-The linear and nonlinear components can be first calculated mathematically based on [RMT_2022_nodes_11](https://drive.google.com/file/d/19Oh5zRBih6wchi5mTwJW1OAsX0nw7Ppf/view?usp=sharing), and then processed with the same [script](https://github.com/liyaguang/DCRNN/blob/master/scripts/generate_training_data.py) to generate corresponding train/val/test datasets.
+The linear and nonlinear components can be first calculated mathematically based on [RMT_2022_nodes_11](https://drive.google.com/file/d/19Oh5zRBih6wchi5mTwJW1OAsX0nw7Ppf/view?usp=share_link), and then processed with the same [script](https://github.com/liyaguang/DCRNN/blob/master/scripts/generate_training_data.py) to generate corresponding train/val/test datasets.
 
 The `processed train/val/test of Feature Augmentation` are available at: [Google Drive](https://drive.google.com/drive/folders/1NrRM7VW48XgOVr9dV2hW4thh5VR1XqdF?usp=share_link). 
 
