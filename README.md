@@ -17,7 +17,7 @@ new spatial-temporal task and dataset.
 
 ## Training/Test/Validation Data
 
-The Training/Test/Validation (.npz) is providing at ./Data
+The Training/Test/Validation (.npz) is providing at ./model/Data
 
 We split 7:2:1 as  Training/Test/Validation files. 
 
